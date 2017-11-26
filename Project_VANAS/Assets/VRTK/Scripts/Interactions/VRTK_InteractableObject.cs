@@ -310,7 +310,9 @@ namespace VRTK
         {
             if (grabbingObjects.Count > 0 && grabbedBy != null)
             {
+                
                 return (grabbingObjects.Contains(grabbedBy));
+                
             }
             return (grabbingObjects.Count > 0);
         }
@@ -403,6 +405,10 @@ namespace VRTK
             ToggleEnableState(true);
             if (!IsGrabbed() || IsSwappable())
             {
+                GameObject.Find("PlayerMemory").GetComponent<InventoryScript>().addItemToInventory(gameObject);
+
+                gameObject.SetActive(false);
+                Debug.Log(gameObject.name);
                 PrimaryControllerGrab(currentGrabbingGameObject);
             }
             else
