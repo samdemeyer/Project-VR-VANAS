@@ -13,6 +13,7 @@ public class ClipboardScript : MonoBehaviour {
         else
         {
             gameObject.SetActive(true);
+            gameObject.GetComponent<InventoryScript>().activateAllButtons();
         }
     }
 }
