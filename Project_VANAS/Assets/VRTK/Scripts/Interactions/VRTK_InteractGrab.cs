@@ -534,11 +534,15 @@ namespace VRTK
             }
         }
 
-        protected virtual void AttemptGrabObject()
+        protected virtual void AttemptGrabObject() //grab target
         {
             GameObject objectToGrab = GetGrabbableObject();
             if (objectToGrab != null)
             {
+                Debug.Log("grabbing " + objectToGrab.name);
+                GameObject.Find("PlayerMemory").GetComponent<InventoryScript>().addItemToInventory(objectToGrab);
+                objectToGrab.SetActive(false);
+                //gameObject.SetActive(false);
                 PerformGrabAttempt(objectToGrab);
             }
             else
