@@ -22641,11 +22641,6 @@ See Also: PhysicsVisualizationSettings.</para>
         <para>Stops or allows audio from other applications to play in the background while your Unity application is running.</para>
       </summary>
     </member>
-    <member name="P:UnityEditor.PlayerSettings.preserveFramebufferAlpha">
-      <summary>
-        <para>When enabled, preserves the alpha value in the framebuffer to support rendering over native UI on Android.</para>
-      </summary>
-    </member>
     <member name="P:UnityEditor.PlayerSettings.productName">
       <summary>
         <para>The name of your product.</para>
