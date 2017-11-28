@@ -538,10 +538,15 @@ namespace VRTK
         {
             GameObject objectToGrab = GetGrabbableObject();
             if (objectToGrab != null)
-            {
-                Debug.Log("grabbing " + objectToGrab.name);
-                GameObject.Find("PlayerMemory").GetComponent<InventoryScript>().addItemToInventory(objectToGrab);
-                
+            {                
+                if (objectToGrab.tag == "SmallItemToInstantiate")
+                {
+                    GameObject.Find("PlayerMemory").GetComponent<InventoryScript>().freeGameObject(objectToGrab);
+                }
+                else
+                {
+                    GameObject.Find("PlayerMemory").GetComponent<InventoryScript>().addItemToInventory(objectToGrab);
+                }
                 PerformGrabAttempt(objectToGrab);
             }
             else
