@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 528448f35e56d354a856e997d926ce4b
 folderAsset: yes
 timeCreated: 1511704710
+=======
+guid: 68930de965211d340960b3ef839f6e89
+folderAsset: yes
+timeCreated: 1511794584
+>>>>>>> MichaelBranch
 licenseType: Free
 DefaultImporter:
   externalObjects: {}

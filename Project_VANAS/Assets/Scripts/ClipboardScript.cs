@@ -13,7 +13,11 @@ public class ClipboardScript : MonoBehaviour {
         else
         {
             gameObject.SetActive(true);
+<<<<<<< HEAD
             gameObject.GetComponent<InventoryScript>().activateAllButtons();
+=======
+            //GameObject.Find("PlayerMemory").GetComponent<InventoryScript>().activateAllButtons();
+>>>>>>> MichaelBranch
         }
     }
 }

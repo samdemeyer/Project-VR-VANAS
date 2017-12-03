@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SmallItemToInstantiate
+  - MedObject
   layers:
   - Default
   - TransparentFX
