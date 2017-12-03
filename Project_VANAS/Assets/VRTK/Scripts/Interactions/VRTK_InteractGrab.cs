@@ -543,9 +543,10 @@ namespace VRTK
                 {
                     GameObject.Find("PlayerMemory").GetComponent<InventoryScript>().freeGameObject(objectToGrab);
                 }
-                else
+                else if (objectToGrab.tag == "MedObject")
                 {
                     GameObject.Find("PlayerMemory").GetComponent<InventoryScript>().addItemToInventory(objectToGrab);
+
                 }
                 PerformGrabAttempt(objectToGrab);
             }

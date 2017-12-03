@@ -27,29 +27,33 @@ public class InventoryScript : MonoBehaviour {
 	}
     public void addItemToInventory(GameObject _gameobject)
     {
-        if (itemPositions[8].transform.childCount == 0)
+        if (_gameobject.tag == "MedObject")
         {
-            int i = 0;
-
-            while (checkIfObjectHasChildren(itemPositions[i]) && i < 8)
+            if (itemPositions[8].transform.childCount == 0)
             {
+                int i = 0;
 
-                i++;
-            }
+                while (checkIfObjectHasChildren(itemPositions[i]) && i < 8)
+                {
 
-            if (i < 9)
-            {
-                //Debug.Log("create item at spot " + i);
-                GameObject smallItem = Instantiate(_gameobject, itemPositions[i].transform);
-                inventory.Add(smallItem);
-                smallItem.transform.position = new Vector3(itemPositions[i].transform.position.x, itemPositions[i].transform.position.y + 0.1f, itemPositions[i].transform.position.z);
-                smallItem.name = createNameForNewItem(_gameobject);
-                smallItem.transform.localScale = smallItem.transform.localScale*4;
-                smallItem.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
-                smallItem.tag = "SmallItemToInstantiate";
-                smallItem.SetActive(true);
+                    i++;
+                }
+
+                if (i < 9)
+                {
+                    //Debug.Log("create item at spot " + i);
+                    GameObject smallItem = Instantiate(_gameobject, itemPositions[i].transform);
+                    inventory.Add(smallItem);
+                    smallItem.transform.position = new Vector3(itemPositions[i].transform.position.x, itemPositions[i].transform.position.y + 0.1f, itemPositions[i].transform.position.z);
+                    smallItem.name = createNameForNewItem(_gameobject);
+                    smallItem.transform.localScale = smallItem.transform.localScale * 4;
+                    smallItem.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
+                    smallItem.tag = "SmallItemToInstantiate";
+                    smallItem.SetActive(true);
+                }
             }
         }
+        
         
 
     }
