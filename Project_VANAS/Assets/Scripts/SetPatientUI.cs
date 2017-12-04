@@ -15,9 +15,10 @@ public class SetPatientUI : MonoBehaviour {
     public void getPatientName(Button _pressedButton)
     {
         getPatientInfo(_pressedButton.gameObject.name);
-        Debug.Log("Child text is " + _pressedButton.transform.GetChild(0).GetComponent<Text>().text);
-        Debug.Log("Button name is " + _pressedButton.gameObject.name);
+        //Debug.Log("Child text is " + _pressedButton.transform.GetChild(0).GetComponent<Text>().text);
+        //Debug.Log("Button name is " + _pressedButton.gameObject.name);
         SetUI();
+        GameObject.Find("medicijnkast").GetComponent<VANASScript>().chooseRandomDrawer();
     }
     protected void SetUI()
     {
