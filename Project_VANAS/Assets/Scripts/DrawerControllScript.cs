@@ -7,7 +7,7 @@ public class DrawerControllScript : MonoBehaviour {
     protected void setColor(Color _newcolor)
     {
         GameObject button = gameObject.transform.GetChild(0).gameObject;
-        Renderer buttonColor = GetComponent<Renderer>();
+        Renderer buttonColor = button.GetComponent<Renderer>();
         buttonColor.material.color = _newcolor;
     }
     public void unlockDrawer()
@@ -22,8 +22,13 @@ public class DrawerControllScript : MonoBehaviour {
         setColor(Color.red);
         isLocked = true;
     }
+    private void Start()
+    {
+        Debug.Log(gameObject.transform.GetChild(0).gameObject.name);
+    }
     private void Update()
     {
+
         if (isLocked)
         {
             lockDrawer();
