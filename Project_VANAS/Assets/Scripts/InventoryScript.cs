@@ -42,12 +42,14 @@ public class InventoryScript : MonoBehaviour {
                 if (i < 9)
                 {
                     //Debug.Log("create item at spot " + i);
-                    GameObject smallItem = Instantiate(_gameobject, itemPositions[i].transform);
+                    GameObject smallItem = Instantiate(_gameobject);
                     inventory.Add(smallItem);
-                    smallItem.transform.position = new Vector3(itemPositions[i].transform.position.x, itemPositions[i].transform.position.y + 0.1f, itemPositions[i].transform.position.z);
+                    smallItem.transform.parent = itemPositions[i].transform;
+                    smallItem.transform.position = new Vector3(itemPositions[i].transform.position.x, itemPositions[i].transform.position.y + 0.5f, itemPositions[i].transform.position.z);
                     smallItem.name = createNameForNewItem(_gameobject);
-                    smallItem.transform.localScale = smallItem.transform.localScale * 4;
-                    smallItem.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
+                    // smallItem.transform.localScale = smallItem.transform.localScale * 4;
+                    
+                    smallItem.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
                     smallItem.tag = "SmallItemToInstantiate";
                     smallItem.SetActive(true);
                 }
@@ -122,7 +124,7 @@ public class InventoryScript : MonoBehaviour {
     {
         _grabbedObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         Debug.Log(_grabbedObject.name + "is being held");
-        _grabbedObject.transform.localScale = _grabbedObject.transform.localScale*10;
+        _grabbedObject.transform.localScale = _grabbedObject.transform.localScale*2;
         _grabbedObject.transform.parent = null;
         _grabbedObject.tag = "Untagged";
 
