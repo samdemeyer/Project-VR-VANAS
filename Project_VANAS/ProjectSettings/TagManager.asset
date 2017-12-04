@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SmallItemToInstantiate
   - MedObject
+  - vanaskastScanner
   layers:
   - Default
   - TransparentFX
