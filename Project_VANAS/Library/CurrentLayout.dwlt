@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 98
+  controlID: 51
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 65
+  controlID: 28
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -394,14 +394,14 @@ MonoBehaviour:
     height: 476
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 19.984592670958982
+  lastFramingTime: 1621.5184805049719
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.4013916, y: 2.8505752, z: 16.832882}
+    m_Target: {x: 19.943546, y: 7.1041107, z: 8.461578}
     speed: 2
-    m_Value: {x: -1.4013916, y: 2.8505752, z: 16.832882}
+    m_Value: {x: 19.943546, y: 7.1041107, z: 8.461578}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -425,13 +425,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.029997496, y: -0.9686577, z: 0.1464063, w: 0.1985908}
+    m_Target: {x: 0.015977263, y: -0.9375595, z: 0.34489796, w: 0.04334686}
     speed: 2
-    m_Value: {x: 0.029996438, y: -0.9686235, z: 0.14640112, w: 0.1985838}
+    m_Value: {x: 0.015976412, y: -0.93750954, z: 0.34487957, w: 0.04334455}
   m_Size:
-    m_Target: 7.520715
+    m_Target: 40.66131
     speed: 2
-    m_Value: 7.520715
+    m_Value: 40.66131
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -598,28 +598,28 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d4360000
-    m_LastClickedID: 14036
-    m_ExpandedIDs: 98fbffff000000000a400000dc430000ea430000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 461dfcff561ffcfffe2bfcff24e7feff7ce2ffff80e2ffff82e2ffff98fbffff000000002239000052400000de410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: medicijnkast
-      m_OriginalName: medicijnkast
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 17386
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
   m_ExpandedScenes:
-  - Experimental_Scene_InventoryTesting
+  - VANASKast_Scene
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -662,7 +662,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -701,7 +701,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000be2a0000062b00004e2b00005a2b0000b62b0000322d0000562d0000e42e0000d02f0000d23100002a3200005a320000
+    m_ExpandedIDs: 00000000be2a0000062b00004e2b00005a2b0000b62b0000322d0000e42e0000d02f0000d23100002a3200005a320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

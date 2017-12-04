@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 70a26d6de25024cba9dd0edd0441c7e8
+timeCreated: 1512320509
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Basis_Kamer
+    100002: Basis_Kamer_2
+    100004: Bed_1
+    100006: deur_binnen_1
+    100008: deur_kamer
+    100010: deur_medicijnkamer
+    100012: DeurFrame
+    100014: DeurFrame_2
+    100016: floor
+    100018: Gang
+    100020: Gangwalls
+    100022: //RootNode
+    100024: Kamer_1
+    100026: Kast1_kamer
+    100028: Kast2_kamer
+    100030: Klink1
+    100032: Klink1_2
+    100034: klink_basis
+    100036: klink_basis_2
+    100038: klink_handel
+    100040: klink_handel_2
+    100042: Lamp
+    100044: Lift
+    100046: LiftDeur2
+    100048: LiftDeur2_2
+    100050: MedicijnKamer
+    100052: plafon
+    100054: Raam
+    100056: Raam_1
+    100058: Raam_2
+    100060: Voorbereidingstafel
+    400000: Basis_Kamer
+    400002: Basis_Kamer_2
+    400004: Bed_1
+    400006: deur_binnen_1
+    400008: deur_kamer
+    400010: deur_medicijnkamer
+    400012: DeurFrame
+    400014: DeurFrame_2
+    400016: floor
+    400018: Gang
+    400020: Gangwalls
+    400022: //RootNode
+    400024: Kamer_1
+    400026: Kast1_kamer
+    400028: Kast2_kamer
+    400030: Klink1
+    400032: Klink1_2
+    400034: klink_basis
+    400036: klink_basis_2
+    400038: klink_handel
+    400040: klink_handel_2
+    400042: Lamp
+    400044: Lift
+    400046: LiftDeur2
+    400048: LiftDeur2_2
+    400050: MedicijnKamer
+    400052: plafon
+    400054: Raam
+    400056: Raam_1
+    400058: Raam_2
+    400060: Voorbereidingstafel
+    2100000: floor
+    2100002: plafon
+    2100004: metaal
+    2100006: wood
+    2100008: wallls
+    2100010: wit
+    2100012: Sky
+    2100014: gordijn
+    2100016: wallls.1
+    2100018: blue-kast
+    2100020: wheels
+    2100022: bed
+    2100024: Bed_lakens
+    2100026: wallls.2
+    2300000: Basis_Kamer
+    2300002: Basis_Kamer_2
+    2300004: Bed_1
+    2300006: deur_binnen_1
+    2300008: deur_kamer
+    2300010: deur_medicijnkamer
+    2300012: DeurFrame
+    2300014: DeurFrame_2
+    2300016: floor
+    2300018: Gangwalls
+    2300020: Kast1_kamer
+    2300022: Kast2_kamer
+    2300024: klink_basis
+    2300026: klink_basis_2
+    2300028: klink_handel
+    2300030: klink_handel_2
+    2300032: Lamp
+    2300034: Lift
+    2300036: LiftDeur2
+    2300038: LiftDeur2_2
+    2300040: plafon
+    2300042: Raam
+    2300044: Raam_1
+    2300046: Raam_2
+    2300048: Voorbereidingstafel
+    3300000: Basis_Kamer
+    3300002: Basis_Kamer_2
+    3300004: Bed_1
+    3300006: deur_binnen_1
+    3300008: deur_kamer
+    3300010: deur_medicijnkamer
+    3300012: DeurFrame
+    3300014: DeurFrame_2
+    3300016: floor
+    3300018: Gangwalls
+    3300020: Kast1_kamer
+    3300022: Kast2_kamer
+    3300024: klink_basis
+    3300026: klink_basis_2
+    3300028: klink_handel
+    3300030: klink_handel_2
+    3300032: Lamp
+    3300034: Lift
+    3300036: LiftDeur2
+    3300038: LiftDeur2_2
+    3300040: plafon
+    3300042: Raam
+    3300044: Raam_1
+    3300046: Raam_2
+    3300048: Voorbereidingstafel
+    4300000: floor
+    4300002: plafon
+    4300004: Lift
+    4300006: LiftDeur2
+    4300008: LiftDeur2_2
+    4300010: deur_kamer
+    4300012: klink_basis
+    4300014: klink_handel
+    4300016: Gangwalls
+    4300018: Raam
+    4300020: Lamp
+    4300022: Raam_1
+    4300024: DeurFrame
+    4300026: deur_binnen_1
+    4300028: Basis_Kamer
+    4300030: Kast2_kamer
+    4300032: Kast1_kamer
+    4300034: Bed_1
+    4300036: Voorbereidingstafel
+    4300038: Raam_2
+    4300040: DeurFrame_2
+    4300042: deur_medicijnkamer
+    4300044: klink_basis_2
+    4300046: klink_handel_2
+    4300048: Basis_Kamer_2
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FabricPlain0090_350
+    second: {fileID: 2800000, guid: 9e3869d41a0384dadb79a89ccb874b7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FabricPlain0154_1_270
+    second: {fileID: 2800000, guid: d32330ab6fc4b49e685b6d1f9b4263b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gang.1Color
+    second: {fileID: 2800000, guid: d0ce25ca0e7504e959d2aab12daecea9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KamerColor
+    second: {fileID: 2800000, guid: 5e80166e47631407f955051f55038904, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: metalback
+    second: {fileID: 2800000, guid: d0bd4fe2f513642c0819cb3dd17f1d36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sky_107
+    second: {fileID: 2800000, guid: 7943b112355224ccab1d3d4d493d70c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wall
+    second: {fileID: 2800000, guid: b457f873ebc544ae9b552be0693fbca8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood1
+    second: {fileID: 2800000, guid: 3addc59fdabb442c1b6cf1fae3985336, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood2
+    second: {fileID: 2800000, guid: 18ee4a1bc329044538ab95e3d695851f, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
