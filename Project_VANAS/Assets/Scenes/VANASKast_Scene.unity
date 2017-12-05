@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028353, g: 0.2257137, b: 0.30692255, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -13516,7 +13516,7 @@ ConfigurableJoint:
   m_Anchor: {x: -15, y: -5.48, z: 0.25}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.430442, y: 5.014264, z: 21.27266}
+  m_ConnectedAnchor: {x: 6.430442, y: 5.014264, z: 19.27166}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: -1, z: 0}
   m_XMotion: 1
@@ -15273,7 +15273,7 @@ ConfigurableJoint:
   m_Anchor: {x: -15, y: -5.48, z: 0.25}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.430441, y: 3.586881, z: 21.27266}
+  m_ConnectedAnchor: {x: 6.430442, y: 3.586881, z: 19.27166}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: -1, z: 0}
   m_XMotion: 1
@@ -19342,7 +19342,7 @@ ConfigurableJoint:
   m_Anchor: {x: -15, y: -5.48, z: 0.25}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.430441, y: 2.6800303, z: 21.27266}
+  m_ConnectedAnchor: {x: 6.430442, y: 2.6800303, z: 19.27166}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: -1, z: 0}
   m_XMotion: 1
@@ -22679,7 +22679,7 @@ ConfigurableJoint:
   m_Anchor: {x: -15, y: -5.48, z: 0.25}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.430441, y: 3.2134192, z: 21.27266}
+  m_ConnectedAnchor: {x: 6.430442, y: 3.2134192, z: 19.27166}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: -1, z: 0}
   m_XMotion: 1
@@ -23930,7 +23930,7 @@ ConfigurableJoint:
   m_Anchor: {x: -15, y: -5.48, z: 0.25}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.430441, y: 4.107414, z: 21.27266}
+  m_ConnectedAnchor: {x: 6.430442, y: 4.107414, z: 19.27166}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: -1, z: 0}
   m_XMotion: 1
@@ -30662,7 +30662,7 @@ ConfigurableJoint:
   m_Anchor: {x: -15, y: -5.48, z: 0.25}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.430441, y: 4.6408024, z: 21.27266}
+  m_ConnectedAnchor: {x: 6.430442, y: 4.6408024, z: 19.27166}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: -1, z: 0}
   m_XMotion: 1
@@ -36869,7 +36869,7 @@ ConfigurableJoint:
   m_Anchor: {x: -15, y: -5.48, z: 0.25}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.430441, y: 1.2431715, z: 21.27266}
+  m_ConnectedAnchor: {x: 6.430442, y: 1.2431715, z: 19.27166}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: -1, z: 0}
   m_XMotion: 1
@@ -41944,7 +41944,7 @@ ConfigurableJoint:
   m_Anchor: {x: -15, y: -5.48, z: 0.25}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.430441, y: 1.7765602, z: 21.27266}
+  m_ConnectedAnchor: {x: 6.430442, y: 1.7765602, z: 19.27166}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: -1, z: 0}
   m_XMotion: 1
@@ -44621,7 +44621,7 @@ ConfigurableJoint:
   m_Anchor: {x: -15, y: -5.48, z: 0.25}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.430441, y: 2.1500216, z: 21.27266}
+  m_ConnectedAnchor: {x: 6.430442, y: 2.1500216, z: 19.27166}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: -1, z: 0}
   m_XMotion: 1
@@ -45988,7 +45988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2135048617
 Transform:
   m_ObjectHideFlags: 0
