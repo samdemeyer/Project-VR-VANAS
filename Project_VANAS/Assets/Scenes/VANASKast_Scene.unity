@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028353, g: 0.2257137, b: 0.30692255, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2357,10 +2357,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 174362951}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: -1.02, y: 0, z: 0}
+  m_Anchor: {x: 0.02, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 24.385632, y: 3.004142, z: 6.251733}
+  m_ConnectedAnchor: {x: 27.505629, y: 3.004142, z: 6.251733}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -10279,10 +10279,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 428915710}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: -1.02, y: 0, z: 0}
+  m_Anchor: {x: 0.02, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -12.394371, y: 3.004142, z: 6.251733}
+  m_ConnectedAnchor: {x: -9.27437, y: 3.004142, z: 6.251733}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -27814,10 +27814,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1259577518}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: -1.02, y: 0, z: 0}
+  m_Anchor: {x: 0.02, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.0556297, y: 3.004142, z: 6.251733}
+  m_ConnectedAnchor: {x: 9.17563, y: 3.004142, z: 6.251733}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -34091,10 +34091,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1515586526}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: -0.01, y: 0, z: 0}
+  m_Anchor: {x: 0.02, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -6.7395716, y: 3.0041413, z: 17.058956}
+  m_ConnectedAnchor: {x: -6.7395716, y: 3.0041413, z: 17.148956}
   m_UseSpring: 0
   m_Spring:
     spring: 0
