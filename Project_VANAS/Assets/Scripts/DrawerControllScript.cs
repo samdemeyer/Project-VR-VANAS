@@ -12,6 +12,7 @@ public class DrawerControllScript : MonoBehaviour {
     }
     public void unlockDrawer()
     {
+        gameObject.GetComponent<VRTK.VRTK_InteractableObject>().enabled = true;
         gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
         setColor(Color.green);
         isLocked = false;
@@ -24,7 +25,9 @@ public class DrawerControllScript : MonoBehaviour {
     }
     private void Start()
     {
-        Debug.Log(gameObject.transform.GetChild(0).gameObject.name);
+
+        gameObject.GetComponent<VRTK.VRTK_InteractableObject>().enabled = false;
+        //Debug.Log(gameObject.transform.GetChild(0).gameObject.name);
     }
     private void Update()
     {
