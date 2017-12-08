@@ -7,8 +7,36 @@ public class VANASScript : MonoBehaviour {
     public List<GameObject> middleDrawers = new List<GameObject>();
     public List<GameObject> rightDrawers = new List<GameObject>();
 
-    protected int Leftslot, middleSlot, rightSlot;
+    protected List<GameObject> allDrawers = new List<GameObject>();
 
+    protected int Leftslot, middleSlot, rightSlot;
+    private void Start()
+    {
+        for (int i = 0; i < leftDrawers.Count; i++)
+        {
+            allDrawers.Add(leftDrawers[i]);
+        }
+
+        for (int i = 0; i < middleDrawers.Count; i++)
+        {
+            allDrawers.Add(middleDrawers[i]);
+        }
+
+        for (int i = 0; i < rightDrawers.Count; i++)
+        {
+            allDrawers.Add(rightDrawers[i]);
+        }
+    }
+    public void closeAllDrawersAcceptSelected(GameObject _selectedDrawer)
+    {
+        for (int i = 0; i < allDrawers.Count; i++)
+        {
+            if (allDrawers[i] != _selectedDrawer)
+            {
+                StartCoroutine(allDrawers[i].GetComponent<DrawerControllScript>().closeDrawer());
+            }
+        }
+    }
     public void chooseRandomDrawer()
     {
         lockCloset();

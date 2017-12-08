@@ -3883,7 +3883,7 @@ MeshCollider:
   m_GameObject: {fileID: 218915158}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
@@ -21658,6 +21658,35 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1291734199}
   m_Mesh: {fileID: 4300034, guid: 70a26d6de25024cba9dd0edd0441c7e8, type: 3}
+--- !u!1 &1322859085 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1951742014289036, guid: fa60eae999b552e48b0f0a168d23fd52,
+    type: 2}
+  m_PrefabInternal: {fileID: 1658640641}
+--- !u!114 &1322859090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1322859085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1518a5e598c7da244bc4850d3ae63354, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickOnPointerCollision: 1
+  autoActivateWithinDistance: 0.4
+--- !u!114 &1322859091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1322859085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5154634a6c1e44f8a9724471e29b55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1333624698 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100204, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
@@ -25240,8 +25269,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.46549803, y: 0.83978987, z: 0.08388492}
-  m_Center: {x: -0.17817861, y: -0.036448877, z: -0.00000023841858}
+  m_Size: {x: 0.46549803, y: 1.8729703, z: 0.08388492}
+  m_Center: {x: -0.17817861, y: -0.5530388, z: -0.00000023841858}
 --- !u!1 &1520502267
 GameObject:
   m_ObjectHideFlags: 0
@@ -29719,7 +29748,7 @@ MeshCollider:
   m_GameObject: {fileID: 1756687696}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
@@ -31047,6 +31076,110 @@ Prefab:
     - target: {fileID: 100186, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
       propertyPath: m_Name
       value: medicijnkast
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100080, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100072, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100082, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100078, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100060, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100068, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100084, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100058, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100054, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100074, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100076, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100046, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100066, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100070, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100062, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100052, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100056, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100050, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100194, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100198, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100202, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100200, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100196, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100204, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
+      propertyPath: m_TagString
+      value: Drawer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}

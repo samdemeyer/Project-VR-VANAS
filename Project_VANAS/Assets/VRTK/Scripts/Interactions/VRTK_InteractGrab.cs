@@ -546,7 +546,10 @@ namespace VRTK
                 else if (objectToGrab.tag == "MedObject")
                 {
                     GameObject.Find("PlayerMemory").GetComponent<InventoryScript>().addItemToInventory(objectToGrab);
-
+                }
+                else if (objectToGrab.tag == "Drawer")
+                {
+                    GameObject.Find("medicijnkast").GetComponent<VANASScript>().closeAllDrawersAcceptSelected(objectToGrab);
                 }
                 PerformGrabAttempt(objectToGrab);
             }
