@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: f947533e3542eec4da01015a0858b041
+timeCreated: 1512839613
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Basecart
+    100002: Handvat1
+    100004: Handvat2
+    100006: Handvat3
+    100008: Handvat4
+    100010: Handvat5
+    100012: //RootNode
+    100014: Schuif1
+    100016: Schuif2
+    100018: Schuif3
+    100020: Schuif4
+    100022: Schuif5
+    100024: Schuiven
+    100026: Statief
+    100028: Statief_1
+    100030: Statief_2
+    100032: Statief_3
+    100034: Wiel
+    100036: Wiel_2
+    100038: Wiel_3
+    100040: Wiel_4
+    100042: Wielen
+    400000: Basecart
+    400002: Handvat1
+    400004: Handvat2
+    400006: Handvat3
+    400008: Handvat4
+    400010: Handvat5
+    400012: //RootNode
+    400014: Schuif1
+    400016: Schuif2
+    400018: Schuif3
+    400020: Schuif4
+    400022: Schuif5
+    400024: Schuiven
+    400026: Statief
+    400028: Statief_1
+    400030: Statief_2
+    400032: Statief_3
+    400034: Wiel
+    400036: Wiel_2
+    400038: Wiel_3
+    400040: Wiel_4
+    400042: Wielen
+    2100000: wielenKastje
+    2100002: Kastje
+    2100004: Schuiven
+    2100006: HandvatKastje
+    2300000: Basecart
+    2300002: Handvat1
+    2300004: Handvat2
+    2300006: Handvat3
+    2300008: Handvat4
+    2300010: Handvat5
+    2300012: Schuif1
+    2300014: Schuif2
+    2300016: Schuif3
+    2300018: Schuif4
+    2300020: Schuif5
+    2300022: Statief
+    2300024: Statief_1
+    2300026: Statief_2
+    2300028: Statief_3
+    2300030: Wiel
+    2300032: Wiel_2
+    2300034: Wiel_3
+    2300036: Wiel_4
+    3300000: Basecart
+    3300002: Handvat1
+    3300004: Handvat2
+    3300006: Handvat3
+    3300008: Handvat4
+    3300010: Handvat5
+    3300012: Schuif1
+    3300014: Schuif2
+    3300016: Schuif3
+    3300018: Schuif4
+    3300020: Schuif5
+    3300022: Statief
+    3300024: Statief_1
+    3300026: Statief_2
+    3300028: Statief_3
+    3300030: Wiel
+    3300032: Wiel_2
+    3300034: Wiel_3
+    3300036: Wiel_4
+    4300000: Statief_3
+    4300002: Wiel
+    4300004: Statief_2
+    4300006: Wiel_2
+    4300008: Statief_1
+    4300010: Wiel_3
+    4300012: Statief
+    4300014: Wiel_4
+    4300016: Basecart
+    4300018: Schuif1
+    4300020: Handvat1
+    4300022: Schuif2
+    4300024: Handvat2
+    4300026: Schuif3
+    4300028: Handvat3
+    4300030: Schuif4
+    4300032: Handvat4
+    4300034: Schuif5
+    4300036: Handvat5
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

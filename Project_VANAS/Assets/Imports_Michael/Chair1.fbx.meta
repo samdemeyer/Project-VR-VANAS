@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 7254e53a2e3eece4399c901353ad4461
+timeCreated: 1512836536
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cap_1
+    100002: Cap_1_2
+    100004: Cap_2
+    100006: Cap_2_2
+    100008: //RootNode
+    100010: Linkerpoot
+    100012: Rechterpoot
+    100014: Rounding_1
+    100016: Rounding_1_2
+    100018: Rounding_2
+    100020: Rounding_2_2
+    100022: Rugleuning
+    100024: Zitvlak
+    400000: Cap_1
+    400002: Cap_1_2
+    400004: Cap_2
+    400006: Cap_2_2
+    400008: //RootNode
+    400010: Linkerpoot
+    400012: Rechterpoot
+    400014: Rounding_1
+    400016: Rounding_1_2
+    400018: Rounding_2
+    400020: Rounding_2_2
+    400022: Rugleuning
+    400024: Zitvlak
+    2100000: StoelPoten
+    2100002: StofStoel
+    2100004: StofStoel.1
+    2300000: Cap_1
+    2300002: Cap_1_2
+    2300004: Cap_2
+    2300006: Cap_2_2
+    2300008: Linkerpoot
+    2300010: Rechterpoot
+    2300012: Rounding_1
+    2300014: Rounding_1_2
+    2300016: Rounding_2
+    2300018: Rounding_2_2
+    2300020: Rugleuning
+    2300022: Zitvlak
+    3300000: Cap_1
+    3300002: Cap_1_2
+    3300004: Cap_2
+    3300006: Cap_2_2
+    3300008: Linkerpoot
+    3300010: Rechterpoot
+    3300012: Rounding_1
+    3300014: Rounding_1_2
+    3300016: Rounding_2
+    3300018: Rounding_2_2
+    3300020: Rugleuning
+    3300022: Zitvlak
+    4300000: Linkerpoot
+    4300002: Rounding_1
+    4300004: Cap_1
+    4300006: Rounding_2
+    4300008: Cap_2
+    4300010: Rechterpoot
+    4300012: Rounding_1_2
+    4300014: Cap_1_2
+    4300016: Rounding_2_2
+    4300018: Cap_2_2
+    4300020: Rugleuning
+    4300022: Zitvlak
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
