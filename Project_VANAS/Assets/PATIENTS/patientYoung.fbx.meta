@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: 5f6743a3ae4c049cc85ec9501f03455c
+timeCreated: 1512909475
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: armL
+    100002: armR
+    100004: ball_l
+    100006: ball_r
+    100008: beenL
+    100010: beenR
+    100012: bilL
+    100014: bilR
+    100016: calf_l
+    100018: calf_r
+    100020: clavicle_l
+    100022: clavicle_r
+    100024: eyebrow001Mesh
+    100026: eyelashes01Mesh
+    100028: female_genericMesh
+    100030: foot_l
+    100032: foot_r
+    100034: Game_engine
+    100036: gat_linksBeen
+    100038: gat_linksBil
+    100040: gat_rechtsBeen
+    100042: gat_rechtsBil
+    100044: hand_l
+    100046: hand_r
+    100048: head
+    100050: index_01_l
+    100052: index_01_r
+    100054: index_02_l
+    100056: index_02_r
+    100058: index_03_l
+    100060: index_03_r
+    100062: InjectieZones
+    100064: low_polyMesh
+    100066: lowerarm_l
+    100068: lowerarm_r
+    100070: middle_01_l
+    100072: middle_01_r
+    100074: middle_02_l
+    100076: middle_02_r
+    100078: middle_03_l
+    100080: middle_03_r
+    100082: neck_01
+    100084: onderbroek
+    100086: patientYoung
+    100088: //RootNode
+    100090: pelvis
+    100092: pinky_01_l
+    100094: pinky_01_r
+    100096: pinky_02_l
+    100098: pinky_02_r
+    100100: pinky_03_l
+    100102: pinky_03_r
+    100104: ponytail01Mesh
+    100106: ring_01_l
+    100108: ring_01_r
+    100110: ring_02_l
+    100112: ring_02_r
+    100114: ring_03_l
+    100116: ring_03_r
+    100118: Root
+    100120: spine_01
+    100122: spine_02
+    100124: spine_03
+    100126: teeth_baseMesh
+    100128: thigh_l
+    100130: thigh_r
+    100132: thumb_01_l
+    100134: thumb_01_r
+    100136: thumb_02_l
+    100138: thumb_02_r
+    100140: thumb_03_l
+    100142: thumb_03_r
+    100144: tongue01Mesh
+    100146: upperarm_l
+    100148: upperarm_r
+    100150: wristband_2
+    100152: ziekenhuiskleed
+    100154: zonesLinks
+    100156: zonesRechts
+    400000: armL
+    400002: armR
+    400004: ball_l
+    400006: ball_r
+    400008: beenL
+    400010: beenR
+    400012: bilL
+    400014: bilR
+    400016: calf_l
+    400018: calf_r
+    400020: clavicle_l
+    400022: clavicle_r
+    400024: eyebrow001Mesh
+    400026: eyelashes01Mesh
+    400028: female_genericMesh
+    400030: foot_l
+    400032: foot_r
+    400034: Game_engine
+    400036: gat_linksBeen
+    400038: gat_linksBil
+    400040: gat_rechtsBeen
+    400042: gat_rechtsBil
+    400044: hand_l
+    400046: hand_r
+    400048: head
+    400050: index_01_l
+    400052: index_01_r
+    400054: index_02_l
+    400056: index_02_r
+    400058: index_03_l
+    400060: index_03_r
+    400062: InjectieZones
+    400064: low_polyMesh
+    400066: lowerarm_l
+    400068: lowerarm_r
+    400070: middle_01_l
+    400072: middle_01_r
+    400074: middle_02_l
+    400076: middle_02_r
+    400078: middle_03_l
+    400080: middle_03_r
+    400082: neck_01
+    400084: onderbroek
+    400086: patientYoung
+    400088: //RootNode
+    400090: pelvis
+    400092: pinky_01_l
+    400094: pinky_01_r
+    400096: pinky_02_l
+    400098: pinky_02_r
+    400100: pinky_03_l
+    400102: pinky_03_r
+    400104: ponytail01Mesh
+    400106: ring_01_l
+    400108: ring_01_r
+    400110: ring_02_l
+    400112: ring_02_r
+    400114: ring_03_l
+    400116: ring_03_r
+    400118: Root
+    400120: spine_01
+    400122: spine_02
+    400124: spine_03
+    400126: teeth_baseMesh
+    400128: thigh_l
+    400130: thigh_r
+    400132: thumb_01_l
+    400134: thumb_01_r
+    400136: thumb_02_l
+    400138: thumb_02_r
+    400140: thumb_03_l
+    400142: thumb_03_r
+    400144: tongue01Mesh
+    400146: upperarm_l
+    400148: upperarm_r
+    400150: wristband_2
+    400152: ziekenhuiskleed
+    400154: zonesLinks
+    400156: zonesRechts
+    2100000: zones
+    2100002: clothes
+    2100004: tongue01
+    2100006: teeth_base
+    2100008: eyelashes01
+    2100010: eyebrow001
+    2100012: low-poly
+    2100014: ponytail01
+    2100016: female_generic
+    2100018: band2
+    2100020: band1
+    2300000: armL
+    2300002: armR
+    2300004: beenL
+    2300006: beenR
+    2300008: bilL
+    2300010: bilR
+    2300012: gat_linksBeen
+    2300014: gat_linksBil
+    2300016: gat_rechtsBeen
+    2300018: gat_rechtsBil
+    2300020: onderbroek
+    2300022: wristband_2
+    2300024: ziekenhuiskleed
+    3300000: armL
+    3300002: armR
+    3300004: beenL
+    3300006: beenR
+    3300008: bilL
+    3300010: bilR
+    3300012: gat_linksBeen
+    3300014: gat_linksBil
+    3300016: gat_rechtsBeen
+    3300018: gat_rechtsBil
+    3300020: onderbroek
+    3300022: wristband_2
+    3300024: ziekenhuiskleed
+    4300000: bilL
+    4300002: beenL
+    4300004: armL
+    4300006: bilR
+    4300008: beenR
+    4300010: armR
+    4300012: onderbroek
+    4300014: ziekenhuiskleed
+    4300016: gat_rechtsBil
+    4300018: gat_rechtsBeen
+    4300020: gat_linksBil
+    4300022: gat_linksBeen
+    4300024: tongue01Mesh
+    4300026: teeth_baseMesh
+    4300028: eyelashes01Mesh
+    4300030: eyebrow001Mesh
+    4300032: low_polyMesh
+    4300034: ponytail01Mesh
+    4300036: female_genericMesh
+    4300038: wristband_2
+    9500000: //RootNode
+    13700000: eyebrow001Mesh
+    13700002: eyelashes01Mesh
+    13700004: female_genericMesh
+    13700006: low_polyMesh
+    13700008: ponytail01Mesh
+    13700010: teeth_baseMesh
+    13700012: tongue01Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: band1
+    second: {fileID: 2100000, guid: eeededc50883941e286ee8c0ee2d95b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: band2
+    second: {fileID: 2100000, guid: fa67f45eadc234f3cbc89c1707664b2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: clothes
+    second: {fileID: 2100000, guid: d19b1f4b43b9548cfa23205a0e964ee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyebrow001
+    second: {fileID: 2100000, guid: c9de1dbcf74b846ab854028f0be06eb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyelashes01
+    second: {fileID: 2100000, guid: d00813f0a48554fcc8cb0e5a8848feeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_generic
+    second: {fileID: 2100000, guid: 149fb1231d3a840c0a01bb4acb6f9747, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: low-poly
+    second: {fileID: 2100000, guid: 84418bce1cecc49cc803b24afd661458, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ponytail01
+    second: {fileID: 2100000, guid: 67fcebfa586b246eeb2708e0c4e12f9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teeth_base
+    second: {fileID: 2100000, guid: bcdb962223cd247499b2b23d0abdcf23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tongue01
+    second: {fileID: 2100000, guid: af6b4f68b875d42b999c7d8353e2fea6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zones
+    second: {fileID: 2100000, guid: 7efa18668b74f48a69310cf322175616, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: brown_eye
+    second: {fileID: 2800000, guid: cb791f0d8edd448d48996ac795ef5573, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: clothes
+    second: {fileID: 2800000, guid: 12b54ced74ed745b69b2f08a35d378be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: eyebrow001
+    second: {fileID: 2800000, guid: 700c4c514e227424184d16d39cc692f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: eyelashes01
+    second: {fileID: 2800000, guid: cf6bb37702a5f42869004f131c913626, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ponytail01_diffuse
+    second: {fileID: 2800000, guid: 0da9528e2339c4ed6922d5a60d1f7f4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: teeth
+    second: {fileID: 2800000, guid: ad0954fd43c2d401bbea3863bc0d2098, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tongue01_diffuse
+    second: {fileID: 2800000, guid: 346ff4fe681904e2fb4362fe3ec93ba9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: young_lightskinned_female_diffuse2
+    second: {fileID: 2800000, guid: bda6d03d75a7c471596e0cf5f6660d98, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
