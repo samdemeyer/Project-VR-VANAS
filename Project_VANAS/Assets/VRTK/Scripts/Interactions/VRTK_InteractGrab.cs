@@ -551,6 +551,10 @@ namespace VRTK
                 {
                     GameObject.Find("medicijnkast").GetComponent<VANASScript>().closeAllDrawersAcceptSelected(objectToGrab);
                 }
+                else if (objectToGrab.name == "1" || objectToGrab.name == "2" || objectToGrab.name == "3")
+                {
+                    GameObject.Find("VANAS_UI").GetComponent<SetPatientUI>().setSelectedPatientsInfo(int.Parse(objectToGrab.name));
+                }
                 PerformGrabAttempt(objectToGrab);
             }
             else

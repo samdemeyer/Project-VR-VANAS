@@ -14,6 +14,9 @@ public class SetPatientUI : MonoBehaviour {
     public Text d2Name, d2Age, d2Type, d2Weight, d2Sex, d2Allergie;//adult
     public Text d3Name, d3Age, d3Type, d3Weight, d3Sex, d3Allergie;//old
 
+    public Text tName, tAge, tType, tWeight, tSex, tAllergie;//selected patient info
+    public GameObject panel1, panel2, panel3;
+
     public Button button1, button2, button3;
     public MedicalAppData _loaded;
     public void getPatientName(Button _pressedButton)
@@ -100,5 +103,22 @@ public class SetPatientUI : MonoBehaviour {
         {
             d3Allergie.text = _loaded.mPatients[2].mAllergies[i] + "\n";
         }
+    }
+    public void setSelectedPatientsInfo(int _patientIndex)
+    {
+        panel1.SetActive(false);
+        panel2.SetActive(false);
+        panel3.SetActive(true);
+
+        tName.text = _loaded.mPatients[_patientIndex - 1].mName;
+        tAge.text = _loaded.mPatients[_patientIndex - 1].mAge.ToString();
+        tType.text = _loaded.mPatients[_patientIndex - 1].mType.ToString();
+        tWeight.text = _loaded.mPatients[_patientIndex - 1].mWeight.ToString();
+        tSex.text = _loaded.mPatients[_patientIndex - 1].mSex.ToString();
+        for (int b = 0; b < _loaded.mPatients[_patientIndex-1].mAllergies.Count; b++)
+        {
+            tAllergie.text = _loaded.mPatients[_patientIndex - 1].mAllergies[b] + "\n";
+        }
+
     }
 }
