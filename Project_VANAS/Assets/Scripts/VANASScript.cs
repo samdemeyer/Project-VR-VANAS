@@ -37,8 +37,16 @@ public class VANASScript : MonoBehaviour {
             }
         }
     }
+    public void closeAllDrawersAcceptSelected()
+    {
+        for (int i = 0; i < allDrawers.Count; i++)
+        {
+                StartCoroutine(allDrawers[i].GetComponent<DrawerControllScript>().closeDrawer());
+        }
+    }
     public void chooseRandomDrawer()
     {
+        closeAllDrawersAcceptSelected();
         lockCloset();
         Leftslot = Random.Range(0, leftDrawers.Count - 1);
         middleSlot = Random.Range(0, middleDrawers.Count - 1);
