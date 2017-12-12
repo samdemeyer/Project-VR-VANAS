@@ -414,7 +414,7 @@ c935f8f6b6daf6b6546c77d6dc27423c Assembly-CSharp.dll:VRTK.VRTK_RigidbodyFollow
 1b8655881fb9f8378b64851a934e6e2e Assembly-CSharp.dll:VRTK.UnityEventHelper.VRTK_DestinationMarker_UnityEvents
 6404e8fe7354963f02983a63312728b0 Assembly-CSharp.dll:VRTK.VRTK_HipTracking
 74c18ca73abe7b39e4ab16a437d63ab7 Assembly-CSharp.dll:VRTK.Examples.Archery.Arrow
-8eb72a2ea369853472082e5aba4d8a48 Assembly-CSharp.dll:.SetPatientUI
+fc9f8b199a37288409231d997bcf88c5 Assembly-CSharp.dll:.SetPatientUI
 ab38f176bfc0dbb7ce3566df8d09a367 Assembly-CSharp.dll:Valve.VR.InteractionSystem.ArcheryTarget
 aa336d6fedf2162670a2a20eb551b9b7 Assembly-CSharp.dll:.SteamVR_ExternalCamera
 7a38b46daa370b7cb2b8478f41a3773d Assembly-CSharp.dll:VRTK.UnityEventHelper.VRTK_ObjectControl_UnityEvents
