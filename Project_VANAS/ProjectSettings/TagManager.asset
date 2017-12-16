@@ -8,6 +8,9 @@ TagManager:
   - MedObject
   - vanaskastScanner
   - Drawer
+  - patientRoom1
+  - patientRoom2
+  - patientRoom3
   layers:
   - Default
   - TransparentFX

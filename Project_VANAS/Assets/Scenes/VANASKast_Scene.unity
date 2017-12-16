@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028353, g: 0.2257137, b: 0.30692255, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -4942,13 +4942,16 @@ GameObject:
   - component: {fileID: 188522416}
   - component: {fileID: 188522418}
   - component: {fileID: 188522417}
+  - component: {fileID: 188522419}
+  - component: {fileID: 188522420}
+  - component: {fileID: 188522421}
   m_Layer: 0
   m_Name: PatientPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &188522416
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5015,6 +5018,60 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 188522415}
+--- !u!114 &188522419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 188522415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fde158ef38e18147bc7665da35a563d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patientDataHolders:
+  - {fileID: 717624376}
+  - {fileID: 1786526223}
+  - {fileID: 1636082298}
+  - {fileID: 21800257}
+  - {fileID: 1567859007}
+  - {fileID: 2093938596}
+  patientData:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  currentDataLine: 0
+  currentRoom: 
+--- !u!65 &188522420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 188522415}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &188522421
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 188522415}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &189564295
 GameObject:
   m_ObjectHideFlags: 0
@@ -8496,6 +8553,17 @@ MonoBehaviour:
       - m_Target: {fileID: 188522415}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 188522419}
+        m_MethodName: ReadPatientData
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12933,9 +13001,10 @@ GameObject:
   - component: {fileID: 479672785}
   - component: {fileID: 479672787}
   - component: {fileID: 479672786}
+  - component: {fileID: 479672788}
   m_Layer: 0
   m_Name: DeurFrame
-  m_TagString: Untagged
+  m_TagString: patientRoom1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12996,6 +13065,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 479672784}
   m_Mesh: {fileID: 4300024, guid: 70a26d6de25024cba9dd0edd0441c7e8, type: 3}
+--- !u!65 &479672788
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 479672784}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0774636, y: 2.028117, z: 0.15117124}
+  m_Center: {x: 0.0000009536743, y: -0.9985379, z: 0}
 --- !u!1 &483389493 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100020, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
@@ -13406,7 +13487,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7c77247d21e0c448189c31d390f8f354, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7c77247d21e0c448189c31d390f8f354, type: 3}
       propertyPath: m_LocalScale.x
@@ -24576,7 +24657,7 @@ Transform:
   - {fileID: 475046319}
   - {fileID: 1819393426}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &915471503
 Prefab:
@@ -28689,7 +28770,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4594810524849912, guid: 3e6846b54e36c6b408ffbe31449ce51e, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4594810524849912, guid: 3e6846b54e36c6b408ffbe31449ce51e, type: 2}
       propertyPath: m_LocalScale.x
@@ -30031,7 +30112,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1124797847
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31164,9 +31245,10 @@ GameObject:
   - component: {fileID: 1172810547}
   - component: {fileID: 1172810549}
   - component: {fileID: 1172810548}
+  - component: {fileID: 1172810550}
   m_Layer: 0
   m_Name: DeurFrame
-  m_TagString: Untagged
+  m_TagString: patientRoom2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31227,6 +31309,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1172810546}
   m_Mesh: {fileID: 4300024, guid: 70a26d6de25024cba9dd0edd0441c7e8, type: 3}
+--- !u!65 &1172810550
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1172810546}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0774636, y: 2.028117, z: 0.15117124}
+  m_Center: {x: 0, y: -0.9985379, z: 0}
 --- !u!1 &1176294087
 GameObject:
   m_ObjectHideFlags: 0
@@ -32119,7 +32213,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ee6517395c6ab4a85a23688b0bf99337, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ee6517395c6ab4a85a23688b0bf99337, type: 3}
       propertyPath: m_LocalScale.x
@@ -41742,7 +41836,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400102, guid: f0740853d36824f5e83c5a1f4121d475, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400102, guid: f0740853d36824f5e83c5a1f4121d475, type: 3}
       propertyPath: m_LocalScale.x
@@ -43150,9 +43244,10 @@ GameObject:
   - component: {fileID: 1593290222}
   - component: {fileID: 1593290224}
   - component: {fileID: 1593290223}
+  - component: {fileID: 1593290225}
   m_Layer: 0
   m_Name: DeurFrame
-  m_TagString: Untagged
+  m_TagString: patientRoom3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43213,6 +43308,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1593290221}
   m_Mesh: {fileID: 4300024, guid: 70a26d6de25024cba9dd0edd0441c7e8, type: 3}
+--- !u!65 &1593290225
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1593290221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0774636, y: 2.028117, z: 0.15117124}
+  m_Center: {x: -0.00000023841858, y: -0.9985379, z: 0}
 --- !u!1 &1597929911 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100210, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
@@ -45034,7 +45141,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1655101409
 Prefab:
@@ -46686,7 +46793,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 115, y: 0, z: 0}
 --- !u!1 &1707868835
 GameObject:
@@ -49806,7 +49913,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c7f6aaac4fcfd4e8e8ee971ef5324c62, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c7f6aaac4fcfd4e8e8ee971ef5324c62, type: 3}
       propertyPath: m_LocalScale.x
@@ -49864,7 +49971,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400186, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400186, guid: bb188fcd3650a4641aa5046e7cb960fd, type: 3}
       propertyPath: m_LocalScale.x
