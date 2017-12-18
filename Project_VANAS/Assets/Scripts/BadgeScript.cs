@@ -14,6 +14,7 @@ public class BadgeScript : MonoBehaviour {
     public Text nameText;
     public Text jobText;
     public Canvas screenUI;
+    public Canvas patientSpecific;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -21,6 +22,9 @@ public class BadgeScript : MonoBehaviour {
         {
             nameText.text = nameEmployee;
             jobText.text = job;
+
+            screenUI.gameObject.SetActive(false);
+            patientSpecific.gameObject.SetActive(false);
 
             welcomeScreen.gameObject.SetActive(true);
             StartCoroutine(bootSystemVanaskast());

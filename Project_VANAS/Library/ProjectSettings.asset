@@ -61,6 +61,7 @@ PlayerSettings:
   allowedAutorotateToLandscapeLeft: 1
   useOSAutorotation: 1
   use32BitDisplayBuffer: 1
+  preserveFramebufferAlpha: 0
   disableDepthAndStencilBuffers: 0
   androidBlitType: 0
   defaultIsFullScreen: 0
@@ -661,9 +662,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: d0a4156f-4990-4595-8a53-eec24c333f8a
+  cloudProjectId: ef65d922-8b41-42c2-a386-e579d7c3eddf
   projectName: Project_VANAS
-  organizationId: samdemeyer
+  organizationId: michaelrulez
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
