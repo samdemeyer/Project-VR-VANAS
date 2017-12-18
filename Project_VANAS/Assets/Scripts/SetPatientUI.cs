@@ -14,6 +14,8 @@ public class SetPatientUI : MonoBehaviour {
     public Text d2Name, d2Age, d2Type, d2Weight, d2Sex, d2Allergie;//adult
     public Text d3Name, d3Age, d3Type, d3Weight, d3Sex, d3Allergie;//old
 
+    public Text sPatient, sAdministration, sMed;//text on scenario canvas
+
     public Text tName, tAge, tType, tWeight, tSex, tAllergie;//selected patient info
     public GameObject panel1, panel2, panel3;
 
@@ -120,5 +122,11 @@ public class SetPatientUI : MonoBehaviour {
             tAllergie.text = _loaded.mPatients[_patientIndex - 1].mAllergies[b] + "\n";
         }
 
+    }
+    public void setScenarioText(string patient, string administration, string med)
+    {
+        sPatient.text = patient;
+        sAdministration.text = administration;
+        sMed.text = med;
     }
 }

@@ -33,13 +33,54 @@
     </Patient>
   </mPatients>
   <mMedicines />
-  <mTools />
-  <mMethods />
+  <mTools>
+    <DeliveryTool mID="0">
+      <mName>Oplossing</mName>
+    </DeliveryTool>
+    <DeliveryTool mID="1">
+      <mName>Baxter</mName>
+    </DeliveryTool>
+    <DeliveryTool mID="2">
+      <mName>Spuit</mName>
+    </DeliveryTool>
+  </mTools>
+  <mMethods>
+    <DeliveryMethod mID="0">
+      <mName>Oplossing in water</mName>
+      <mTools>
+        <DeliveryTool mID="0">
+          <mName>Oplossing</mName>
+        </DeliveryTool>
+      </mTools>
+    </DeliveryMethod>
+    <DeliveryMethod mID="1">
+      <mName>Oplossing in baxter</mName>
+      <mTools>
+        <DeliveryTool mID="1">
+          <mName>Baxter</mName>
+        </DeliveryTool>
+        <DeliveryTool mID="2">
+          <mName>Spuit</mName>
+        </DeliveryTool>
+      </mTools>
+    </DeliveryMethod>
+    <DeliveryMethod mID="2">
+      <mName>Oplossing in baxter</mName>
+      <mTools>
+        <DeliveryTool mID="1">
+          <mName>Baxter</mName>
+        </DeliveryTool>
+        <DeliveryTool mID="2">
+          <mName>Spuit</mName>
+        </DeliveryTool>
+      </mTools>
+    </DeliveryMethod>
+  </mMethods>
   <mCabinets />
   <mScenarios />
   <mMetaData>
     <mVersion>0.1</mVersion>
-    <mDateTime>2017-12-17T00:21:35.5744676+01:00</mDateTime>
+    <mDateTime>2017-12-18T17:48:02.0198644+01:00</mDateTime>
     <mGenerator>KdG XML Generator v0.1</mGenerator>
   </mMetaData>
 </MedicalAppData>
