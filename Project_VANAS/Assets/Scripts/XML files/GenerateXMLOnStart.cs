@@ -115,11 +115,11 @@ public class GenerateXMLOnStart : MonoBehaviour
         deliveryMethod1.mTools = deliveryTools1;
 
         deliveryMethod2.mID = 1;
-        deliveryMethod2.mName = "Oplossing in baxter";
+        deliveryMethod2.mName = "Oplossing in IV Bag";
         deliveryMethod2.mTools = deliveryTools2;
 
         deliveryMethod3.mID = 2;
-        deliveryMethod3.mName = "Oplossing in baxter";
+        deliveryMethod3.mName = "Spuit";
         deliveryMethod3.mTools = deliveryTools2;
 
         medi.mMethods.Add(deliveryMethod1);

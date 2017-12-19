@@ -54,7 +54,7 @@
       </mTools>
     </DeliveryMethod>
     <DeliveryMethod mID="1">
-      <mName>Oplossing in baxter</mName>
+      <mName>Oplossing in IV Bag</mName>
       <mTools>
         <DeliveryTool mID="1">
           <mName>Baxter</mName>
@@ -65,7 +65,7 @@
       </mTools>
     </DeliveryMethod>
     <DeliveryMethod mID="2">
-      <mName>Oplossing in baxter</mName>
+      <mName>Spuit</mName>
       <mTools>
         <DeliveryTool mID="1">
           <mName>Baxter</mName>
@@ -80,7 +80,7 @@
   <mScenarios />
   <mMetaData>
     <mVersion>0.1</mVersion>
-    <mDateTime>2017-12-19T08:58:46.7741681+01:00</mDateTime>
+    <mDateTime>2017-12-19T09:28:47.8621448+01:00</mDateTime>
     <mGenerator>KdG XML Generator v0.1</mGenerator>
   </mMetaData>
 </MedicalAppData>
