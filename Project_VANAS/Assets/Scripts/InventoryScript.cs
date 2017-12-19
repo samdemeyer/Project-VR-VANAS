@@ -89,6 +89,7 @@ public class InventoryScript : MonoBehaviour {
     }*/
     protected void setObjectPosition(GameObject _activeObject, GameObject _position)
     {
+        //_activeObject.tag = "MedObject";
         Debug.Log("Setobjectposition from btnclick " +_activeObject.name);
         _activeObject.SetActive(true);
         _activeObject.transform.parent = handHoldingItems.gameObject.transform;
@@ -104,23 +105,39 @@ public class InventoryScript : MonoBehaviour {
         {
             if (_activeObject.transform.GetChild(i).gameObject.name == "SnapDropZone")
             {
-                for (int b = 0; b < _activeObject.transform.GetChild(i).gameObject.transform.childCount; b++)
+                GameObject snapdropObject = _activeObject.transform.GetChild(i).gameObject;
+                for (int b = 0; b < snapdropObject.transform.childCount; b++)
                 {
+                    GameObject childOfSnapDrop = snapdropObject.transform.GetChild(b).gameObject;
+                    
                     //Debug.Log("Child " + b + " is " + _grabbedObject.transform.GetChild(i).gameObject.transform.GetChild(b).gameObject.name);
                     //GameObject newGO = _grabbedObject.transform.GetChild(i).gameObject.transform.GetChild(b).gameObject;
                     //Debug.Log(newGO.name);
-                    Debug.Log(_activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.name);
-                    Debug.Log(_activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).name);
-                    _activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.GetComponent<MeshRenderer>().enabled = true;
-                    _activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = true;
-                    _activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).transform.parent = _activeObject.transform;
-                    _activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.parent = _activeObject.transform;
+                    if (childOfSnapDrop.gameObject.name != "HighlightContainer")
+                    {
+                        childOfSnapDrop.GetComponent<MeshRenderer>().enabled = true;
+                        Debug.Log("child of snap is " + childOfSnapDrop.name);
+                        for (int c = 0; c < childOfSnapDrop.transform.childCount; c++)
+                        {
+                            GameObject childOfChild = childOfSnapDrop.transform.GetChild(c).gameObject;
+                            childOfChild.GetComponent<MeshRenderer>().enabled = true;
+                            Debug.Log("child of child is " + childOfChild.name);
+                        }
+                    }
+                   // Debug.Log(_activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.name);
+                   // Debug.Log(_activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).name);
+                    //_activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.GetComponent<MeshRenderer>().enabled = true;
+                    //_activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = true;
+                    //_activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).transform.parent = _activeObject.transform;
+                    //_activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.parent = _activeObject.transform;
 
-                    Destroy(_activeObject.transform.GetChild(i).gameObject);
+                    //Destroy(_activeObject.transform.GetChild(i).gameObject);
 
                 }
             }
         }
+
+
     }
     protected void removeOnClicks(GameObject _button)
     {
