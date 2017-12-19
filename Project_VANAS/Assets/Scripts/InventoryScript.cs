@@ -55,10 +55,6 @@ public class InventoryScript : MonoBehaviour {
         
 
     }
-    protected void test()
-    {
-        Debug.Log("You clicked on the img");
-    }
     protected bool checkIfObjectHasChildren(GameObject _inventoryIndex)
     {
         if (_inventoryIndex.transform.childCount == 0)
@@ -103,6 +99,28 @@ public class InventoryScript : MonoBehaviour {
         RemoveItemFromInventory(_activeObject);
         _position.gameObject.SetActive(false);
         removeOnClicks(_position);
+
+        for (int i = 0; i < _activeObject.transform.childCount; i++)
+        {
+            if (_activeObject.transform.GetChild(i).gameObject.name == "SnapDropZone")
+            {
+                for (int b = 0; b < _activeObject.transform.GetChild(i).gameObject.transform.childCount; b++)
+                {
+                    //Debug.Log("Child " + b + " is " + _grabbedObject.transform.GetChild(i).gameObject.transform.GetChild(b).gameObject.name);
+                    //GameObject newGO = _grabbedObject.transform.GetChild(i).gameObject.transform.GetChild(b).gameObject;
+                    //Debug.Log(newGO.name);
+                    Debug.Log(_activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.name);
+                    Debug.Log(_activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).name);
+                    _activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.GetComponent<MeshRenderer>().enabled = true;
+                    _activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = true;
+                    _activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).transform.parent = _activeObject.transform;
+                    _activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.parent = _activeObject.transform;
+
+                    Destroy(_activeObject.transform.GetChild(i).gameObject);
+
+                }
+            }
+        }
     }
     protected void removeOnClicks(GameObject _button)
     {
@@ -134,6 +152,8 @@ public class InventoryScript : MonoBehaviour {
         //_grabbedObject.transform.localScale = _grabbedObject.transform.localScale*2;
         _grabbedObject.transform.parent = null;
         _grabbedObject.tag = "Untagged";
+
+        
 
     }
     protected Sprite returnSprite(string _name)
