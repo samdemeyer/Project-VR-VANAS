@@ -122,7 +122,9 @@ public class InventoryScript : MonoBehaviour {
                             GameObject childOfChild = childOfSnapDrop.transform.GetChild(c).gameObject;
                             childOfChild.GetComponent<MeshRenderer>().enabled = true;
                             Debug.Log("child of child is " + childOfChild.name);
+							childOfChild.transform.parent = _activeObject.transform;
                         }
+						childOfSnapDrop.transform.parent = _activeObject.transform;
                     }
                    // Debug.Log(_activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.name);
                    // Debug.Log(_activeObject.transform.GetChild(i).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).name);
@@ -164,7 +166,8 @@ public class InventoryScript : MonoBehaviour {
     }
     public void freeGameObject(GameObject _grabbedObject)
     {
-        _grabbedObject.GetComponent<Rigidbody>().useGravity = true;
+		_grabbedObject.GetComponent<Rigidbody> ().constraints = RigidbodyConstraints.None;
+		_grabbedObject.GetComponent<Rigidbody> ().useGravity = true;
         Debug.Log(_grabbedObject.name + "is being held");
         //_grabbedObject.transform.localScale = _grabbedObject.transform.localScale*2;
         _grabbedObject.transform.parent = null;
