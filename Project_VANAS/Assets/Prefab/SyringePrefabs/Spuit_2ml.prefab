@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 135974378476837630}
   - component: {fileID: 114029202459655530}
   - component: {fileID: 114576322749932866}
+  - component: {fileID: 114505782600444788}
   m_Layer: 0
   m_Name: SnapDropZone
   m_TagString: Untagged
@@ -231,9 +232,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1735026123053556}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.18742009, y: -0.035794057, z: -0.0000013539259}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.856, y: 0.839, z: 12.524}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4635319536132056}
   - {fileID: 4520109091388882}
@@ -242,7 +243,7 @@ Transform:
   - {fileID: 4825304795564856}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!4 &4192972318757384
 Transform:
   m_ObjectHideFlags: 1
@@ -685,7 +686,7 @@ MonoBehaviour:
   cloneNewOnUnsnap: 0
   highlightColor: {r: 0, g: 1, b: 0.17241383, a: 0.503}
   highlightAlwaysActive: 0
-  validObjectListPolicy: {fileID: 0}
+  validObjectListPolicy: {fileID: 114505782600444788}
   displayDropZoneInEditor: 1
   defaultSnappedObject: {fileID: 0}
 --- !u!114 &114054855353363002
@@ -739,6 +740,21 @@ MonoBehaviour:
   throwVelocityWithAttachDistance: 0
   throwMultiplier: 1
   onGrabCollisionDelay: 0
+--- !u!114 &114505782600444788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1343612196166042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed2aa1a29b92ca4f84a26a5f6e9218b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  operation: 1
+  checkType: 1
+  identifiers:
+  - SyringeTop
 --- !u!114 &114576322749932866
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -772,7 +788,7 @@ MonoBehaviour:
   allowedTouchControllers: 0
   ignoredColliders: []
   isGrabbable: 1
-  holdButtonToGrab: 1
+  holdButtonToGrab: 0
   stayGrabbedOnTeleport: 1
   validDrop: 1
   grabOverrideButton: 0

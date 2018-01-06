@@ -54,6 +54,7 @@ GameObject:
   - component: {fileID: 135371066045511280}
   - component: {fileID: 114222840375106458}
   - component: {fileID: 114589046539393172}
+  - component: {fileID: 114079167243221848}
   m_Layer: 0
   m_Name: SnapDropZone
   m_TagString: Untagged
@@ -259,9 +260,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1256854146967226}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1333685, y: -0.013418391, z: -0.0000013539259}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.192, y: 0.843, z: 12.576}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4718109303617542}
   - {fileID: 4648387753019928}
@@ -270,7 +271,7 @@ Transform:
   - {fileID: 4231374668023390}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!4 &4633046011175312
 Transform:
   m_ObjectHideFlags: 1
@@ -667,6 +668,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.013892055, y: 0.060940832, z: 0.012925501}
   m_Center: {x: 0.000023782253, y: -0.0156052075, z: -0.00018483493}
+--- !u!114 &114079167243221848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201007459843552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed2aa1a29b92ca4f84a26a5f6e9218b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  operation: 1
+  checkType: 1
+  identifiers:
+  - SyringeTop
 --- !u!114 &114114095310393662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -683,7 +699,7 @@ MonoBehaviour:
   allowedTouchControllers: 0
   ignoredColliders: []
   isGrabbable: 1
-  holdButtonToGrab: 1
+  holdButtonToGrab: 0
   stayGrabbedOnTeleport: 1
   validDrop: 1
   grabOverrideButton: 0
@@ -715,7 +731,7 @@ MonoBehaviour:
   cloneNewOnUnsnap: 0
   highlightColor: {r: 0, g: 1, b: 0.17241383, a: 0.503}
   highlightAlwaysActive: 0
-  validObjectListPolicy: {fileID: 0}
+  validObjectListPolicy: {fileID: 114079167243221848}
   displayDropZoneInEditor: 1
   defaultSnappedObject: {fileID: 0}
 --- !u!114 &114553116321188704
