@@ -80,7 +80,11 @@
   <mScenarios />
   <mMetaData>
     <mVersion>0.1</mVersion>
+<<<<<<< HEAD
     <mDateTime>2018-01-06T14:22:34.1011196+01:00</mDateTime>
+=======
+    <mDateTime>2018-01-05T14:28:47.633844+01:00</mDateTime>
+>>>>>>> 46de6d59d9ede27470aa8ace3a710be083d4a044
     <mGenerator>KdG XML Generator v0.1</mGenerator>
   </mMetaData>
 </MedicalAppData>
