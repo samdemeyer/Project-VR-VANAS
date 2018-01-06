@@ -37,7 +37,7 @@ public class InventoryScript : MonoBehaviour {
                     GameObject itemInInventory = Instantiate(_gameobject);
                     inventory.Add(itemInInventory);
                     itemInInventory.transform.parent = handHoldingItems.transform;
-                    itemInInventory.name = createNameForNewItem(_gameobject);
+                    itemInInventory.name = _gameobject.name;
                     itemInInventory.tag = "SmallItemToInstantiate";
                     itemInInventory.SetActive(false);
 

@@ -11,6 +11,7 @@ TagManager:
   - patientRoom1
   - patientRoom2
   - patientRoom3
+  - InsertableMedTop
   layers:
   - Default
   - TransparentFX

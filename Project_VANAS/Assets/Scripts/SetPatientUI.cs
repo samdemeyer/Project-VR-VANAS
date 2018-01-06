@@ -17,7 +17,7 @@ public class SetPatientUI : MonoBehaviour {
     public Text sPatient, sAdministration, sMed;//text on scenario canvas
 
     public Text tName, tAge, tType, tWeight, tSex, tAllergie;//selected patient info
-    public GameObject panel1, panel2, panel3;
+    public GameObject panel1, panel2, panel3, MenuPanel;
 
     public Button button1, button2, button3;
     public MedicalAppData _loaded;
@@ -110,6 +110,7 @@ public class SetPatientUI : MonoBehaviour {
     {
         panel1.SetActive(false);
         panel2.SetActive(false);
+        MenuPanel.SetActive(false);
         panel3.SetActive(true);
 
         tName.text = _loaded.mPatients[_patientIndex - 1].mName;
