@@ -18,6 +18,7 @@ public class SyringeScript : MonoBehaviour {
             {
                 Debug.Log(findFillPoint().gameObject.transform.position.y);
                 hasSnapped = true;
+                
             }
         }
     }
@@ -43,12 +44,14 @@ public class SyringeScript : MonoBehaviour {
             {
                 if (collision.gameObject.transform.GetChild(0).tag == "InsertableMedTop" && hasSnapped)
                 {
+                    GameObject _toAdd = gameObject.transform.parent.gameObject.transform.parent.gameObject;
+                    _toAdd.transform.localScale = new Vector3(2, 2, 2);
+                    GameObject.Find("PlayerMemory").GetComponent<InventoryScript>().addItemToInventory(_toAdd);
                     StopAllCoroutines();
                 }
             }
         }
     }
-
     private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject != null)
@@ -69,9 +72,11 @@ public class SyringeScript : MonoBehaviour {
                         
                         fillingProgressText = GameObject.Find("fillingProcess").GetComponent<Text>();
                         StartCoroutine(setFillingText(fillingProgressText));
+                        
                     }
                 }
             }
+            
         }
     }
 
@@ -95,6 +100,7 @@ public class SyringeScript : MonoBehaviour {
             // If the object has arrived, stop the coroutine
             if (_objectToPull.transform.localPosition == endPos)
             {
+                
                 yield break;
             }
             // Otherwise, continue next frame
