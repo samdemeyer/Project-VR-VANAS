@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MenuScenes/MainMenu.unity
+    guid: 015258153134f4dcd97a7174ffc084b6
+  - enabled: 1
     path: Assets/Scenes/VANASKast_Scene.unity
     guid: c872cb1e25a955645b320f68d49d1861
