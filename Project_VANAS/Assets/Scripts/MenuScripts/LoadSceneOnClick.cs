@@ -13,7 +13,11 @@ public class LoadSceneOnClick : MonoBehaviour
 	{
 		SceneManager.LoadScene(sceneIndex);
 
-
+        // setUp student clearen
+        if(sceneIndex == 0 || sceneIndex == 1)
+        {
+            PlayerPrefs.DeleteAll();
+        }
 	}
 
 
