@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 114553116321188704}
   - component: {fileID: 114828230355068984}
   - component: {fileID: 114114095310393662}
+  - component: {fileID: 114367633325570180}
   m_Layer: 0
   m_Name: Spuit_10ml
   m_TagString: MedObject
@@ -261,7 +262,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1256854146967226}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.192, y: 0.843, z: 12.576}
+  m_LocalPosition: {x: 0.192, y: 0.843, z: 12.698}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4718109303617542}
@@ -734,6 +735,17 @@ MonoBehaviour:
   validObjectListPolicy: {fileID: 114079167243221848}
   displayDropZoneInEditor: 1
   defaultSnappedObject: {fileID: 0}
+--- !u!114 &114367633325570180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1256854146967226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c9804c7523486448a86d1dcea0a634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114553116321188704
 MonoBehaviour:
   m_ObjectHideFlags: 1

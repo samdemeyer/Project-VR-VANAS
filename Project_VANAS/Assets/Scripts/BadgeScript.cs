@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class BadgeScript : MonoBehaviour {
 
     // Personal information
-    public string nameEmployee = "Michael Bellekens";
+    public string nameEmployee = "";
     public string job = "Nurse";
 
     // Vanaskast information

@@ -29,6 +29,12 @@ public class SetPatientUI : MonoBehaviour {
         SetUI();
         GameObject.Find("medicijnkast").GetComponent<VANASScript>().chooseRandomDrawer();
     }
+    private void Start()
+    {
+        //XMLController
+        _loaded = GameObject.Find("XMLController").GetComponent<GenerateXMLOnStart>().medi;
+        setButtonNames();
+    }
     protected void SetUI()
     {
         uiName.text = pName;

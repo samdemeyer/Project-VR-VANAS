@@ -26,6 +26,8 @@ public class VANASScript : MonoBehaviour {
         {
             allDrawers.Add(rightDrawers[i]);
         }
+
+
     }
     public void closeAllDrawersAcceptSelected(GameObject _selectedDrawer)
     {
@@ -48,17 +50,14 @@ public class VANASScript : MonoBehaviour {
     {
         closeAllDrawersAcceptSelected();
         lockCloset();
-        Leftslot = Random.Range(0, leftDrawers.Count - 1);
         middleSlot = Random.Range(0, middleDrawers.Count - 1);
         rightSlot = Random.Range(0, rightDrawers.Count - 1);
 
-        GameObject leftDrawer, middleDrawer, rightDrawer;
+        GameObject middleDrawer, rightDrawer;
 
-        leftDrawer = leftDrawers[Leftslot];
         middleDrawer = middleDrawers[middleSlot];
         rightDrawer = rightDrawers[rightSlot];
 
-        leftDrawer.GetComponent<DrawerControllScript>().unlockDrawer();
         middleDrawer.GetComponent<DrawerControllScript>().unlockDrawer();
         rightDrawer.GetComponent<DrawerControllScript>().unlockDrawer();
     }

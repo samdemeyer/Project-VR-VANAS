@@ -27,7 +27,6 @@ public class InventoryScript : MonoBehaviour {
 
                 while (inventoryIMGS[i].gameObject.activeSelf && i < 8)
                 {
-
                     i++;
                 }
                 Debug.Log("propt of img " + i.ToString());
@@ -38,6 +37,7 @@ public class InventoryScript : MonoBehaviour {
                     inventory.Add(itemInInventory);
                     itemInInventory.transform.parent = handHoldingItems.transform;
                     itemInInventory.name = _gameobject.name;
+                    itemInInventory.transform.localScale = _gameobject.transform.localScale;
                     itemInInventory.tag = "SmallItemToInstantiate";
                     itemInInventory.SetActive(false);
 

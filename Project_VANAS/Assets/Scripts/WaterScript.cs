@@ -5,13 +5,12 @@ using UnityEngine;
 public class WaterScript : MonoBehaviour {
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.childCount >= 1) { 
-            if (collision.gameObject.transform.GetChild(0).tag == "DissolvableMedTop")
+            if (collision.gameObject.tag == "DissolvableMedTop")
             {
-            Debug.Log("Change color");
-            setColor(Color.red);
+                Debug.Log("Change color");
+                setColor(Color.red);
+                gameObject.tag = "SolvedMedicine";
             }
-        }
     }
 
     protected void setColor(Color _newcolor)

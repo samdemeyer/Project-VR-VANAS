@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 114343780306481088}
   - component: {fileID: 114472218482925198}
   - component: {fileID: 114300947987973352}
+  - component: {fileID: 114100274223958636}
   m_Layer: 0
   m_Name: Spuit_50ml
   m_TagString: MedObject
@@ -668,6 +669,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.017171025, y: 0.07553575, z: 0.012925501}
   m_Center: {x: -0.0006787181, y: -0.022902671, z: -0.00018483493}
+--- !u!114 &114100274223958636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998351358308634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c9804c7523486448a86d1dcea0a634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114117786666459688
 MonoBehaviour:
   m_ObjectHideFlags: 1

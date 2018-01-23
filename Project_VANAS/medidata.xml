@@ -21,7 +21,7 @@
         <string>none</string>
       </mAllergies>
     </Patient>
-    <Patient mID="3">
+    <Patient mID="0">
       <mName>Patricia Beets</mName>
       <mAge>80</mAge>
       <mWeight>65</mWeight>
@@ -32,15 +32,19 @@
       </mAllergies>
     </Patient>
   </mPatients>
-  <mMedicines />
+  <mMedicines>
+    <Medicine mID="0">
+      <mName>Adrenaline</mName>
+      <quantity>100</quantity>
+      <mUnit>ml</mUnit>
+      <mPackage>bottle</mPackage>
+    </Medicine>
+  </mMedicines>
   <mTools>
     <DeliveryTool mID="0">
       <mName>Oplossing</mName>
     </DeliveryTool>
     <DeliveryTool mID="1">
-      <mName>Baxter</mName>
-    </DeliveryTool>
-    <DeliveryTool mID="2">
       <mName>Spuit</mName>
     </DeliveryTool>
   </mTools>
@@ -54,33 +58,27 @@
       </mTools>
     </DeliveryMethod>
     <DeliveryMethod mID="1">
-      <mName>Oplossing in IV Bag</mName>
-      <mTools>
-        <DeliveryTool mID="1">
-          <mName>Baxter</mName>
-        </DeliveryTool>
-        <DeliveryTool mID="2">
-          <mName>Spuit</mName>
-        </DeliveryTool>
-      </mTools>
-    </DeliveryMethod>
-    <DeliveryMethod mID="2">
       <mName>Spuit</mName>
       <mTools>
         <DeliveryTool mID="1">
-          <mName>Baxter</mName>
-        </DeliveryTool>
-        <DeliveryTool mID="2">
           <mName>Spuit</mName>
         </DeliveryTool>
       </mTools>
     </DeliveryMethod>
   </mMethods>
   <mCabinets />
-  <mScenarios />
+  <mScenarios>
+    <Scenario mID="0">
+      <mName>Scenario 1</mName>
+      <mPatientID>0</mPatientID>
+      <mCabinetID>0</mCabinetID>
+      <mMedicineID>0</mMedicineID>
+      <mDeliveryMethod>1</mDeliveryMethod>
+    </Scenario>
+  </mScenarios>
   <mMetaData>
     <mVersion>0.1</mVersion>
-    <mDateTime>2018-01-18T16:56:07.7267129+01:00</mDateTime>
+    <mDateTime>2018-01-23T16:33:14.3477128+01:00</mDateTime>
     <mGenerator>KdG XML Generator v0.1</mGenerator>
   </mMetaData>
 </MedicalAppData>
